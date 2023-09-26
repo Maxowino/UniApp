@@ -64,6 +64,7 @@
           <br><br>
           <div class="enroll" align="center">
                 <h6>ENROLL</h6>
+                
           </div>
           <br><br><br>
     </div>
