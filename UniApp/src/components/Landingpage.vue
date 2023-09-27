@@ -68,5 +68,34 @@
           </div>
           <br><br><br>
     </div>
+    <footer>
+        <div class="titlebox2">
+            <img src="https://media.istockphoto.com/id/1283581279/vector/graduation-hat-and-diploma-icon.jpg?s=612x612&w=0&k=20&c=VLt0IlK4GB6csyH-cAQN722Nt7Ai5Igh0zduLDge3Eg="  alt="">
+            <div class="h2-box">
+                <h2>Belobog College of Arts</h2>
+            </div>
+          </div>
+          <br><br>
+          <div class="contact" align="center">
+            Contact Us
+          </div>
+          <br><br>
+          <div align="center">
+            <i class="fa-brands fa-facebook"></i> 
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <br><br>
+          <div class="mail" align="center">
+             belobogcollege@gmail.com
+          </div>
+          <br>
+          <div align="center" class="copy">
+            &copy;  2023
+          </div>
+          <br><br><br>
+    </footer>
     
 </template>
