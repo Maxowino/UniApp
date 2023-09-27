@@ -19,7 +19,7 @@ import aboutus from './components/Aboutus.vue'
       <landingpage />
       <login/>
       <signup/>
-      <Aboutus/>
+      <aboutus/>
       
     </div>
     
