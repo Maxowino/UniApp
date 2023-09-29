@@ -1,22 +1,23 @@
 import {createRouter,createWebHistory} from 'vue-router'
 
 import Landingpage from "./../components/Landingpage.vue"
-import Aboutus from "./../components/Aboutus.vue"
+import about from "./../components/Aboutus.vue"
 import Login from "./../components/Login.vue"
 import Signup from "./../components/Signup.vue"
+import Register from "./../components/Register.vue"
 
 
 
 const routes = [
     {
         path: '/',
-        name:'landingpage',
+        name:'Landingpage',
         component: Landingpage,
     },
     {
-        path: '/aboutus',
-        name:'aboutus',
-        component: Aboutus,
+        path: '/about',
+        name:'Aboutus',
+        component: about,
     },
     {
         path: '/login',
@@ -27,6 +28,11 @@ const routes = [
         path: '/signup',
         name:'signup',
         component:Signup,
+    },
+    {
+        path: '/register',
+        name:'register',
+        component:Register,
     },
 ]
 const router= createRouter(
