@@ -15,8 +15,8 @@ const routes = [
         component: Landingpage,
     },
     {
-        path: '/about',
-        name:'Aboutus',
+        path: '/aboutus',
+        name:'aboutus',
         component: about,
     },
     {
