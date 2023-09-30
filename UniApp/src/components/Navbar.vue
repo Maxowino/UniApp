@@ -1,7 +1,7 @@
 <template>
     <div>
-        <v-app-bar color="teal">
-            <v-app-bar-title> Mandela University</v-app-bar-title>
+        <v-app-bar color="purple">
+            <v-app-bar-title> Belobog College of Arts</v-app-bar-title>
             <v-spacer></v-spacer>
             <div>
                 <v-btn to="/" color="white" dark>Home</v-btn>
