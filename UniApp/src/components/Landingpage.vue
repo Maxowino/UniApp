@@ -3,8 +3,9 @@
 </script>
 
 <template>
-  
-    <div id="landingpage">
+
+    <div id="landingpage" class="bg-purple">
+      
         <h1>Welcome to UniApp</h1>
          <div class="titlebox">
             <img src="https://media.istockphoto.com/id/1283581279/vector/graduation-hat-and-diploma-icon.jpg?s=612x612&w=0&k=20&c=VLt0IlK4GB6csyH-cAQN722Nt7Ai5Igh0zduLDge3Eg="  alt="" >
@@ -35,26 +36,25 @@
           <br>
           <br>
           <div class="courses" align="center">          
-                <h3>Courses</h3>
+            <button><strong  color="black">Courses</strong></button>
           </div>
           <br><br>
           <div class="extra" align="center">
-            <h4>Extracurricular</h4>
+            <button><strong>Extracurricular</strong></button>
           </div>
           <br>
           <br>
           <div class="alumni" align="center">          
-                
+                <button></button>
           </div>
           <br>
           <br>
           <div class="research" align="center">          
-                <h5>Research Institutes</h5>
+            <button><strong>Research Institutes</strong></button>
           </div>
           <br>
           <br>
-          <div class="events" align="center">          
-             
+          <div class="events" align="center">                     
           </div>
           <br>
           <br>
@@ -64,13 +64,14 @@
           
           <br><br>
           <div class="enroll" align="center">
-                <h6>ENROLL</h6>
+                <button><strong>ENROLL</strong></button>
                 
           </div>
           <br><br><br>
     </div>
-    <footer>
-        <div class="titlebox2">
+    <footer class="bg-purple">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <div class="titlebox2" >
             <img src="https://media.istockphoto.com/id/1283581279/vector/graduation-hat-and-diploma-icon.jpg?s=612x612&w=0&k=20&c=VLt0IlK4GB6csyH-cAQN722Nt7Ai5Igh0zduLDge3Eg="  alt="">
             <div class="h2-box">
                 <h2>Belobog College of Arts</h2>
@@ -361,26 +362,31 @@
         .fa-facebook
         {
             font-size: 38px;
+            color: blue;
           
         }
         .fa-twitter
         {
             font-size: 38px;
+            color: aqua;
             
         }
         .fa-instagram
         {
             font-size: 38px;
+            color: orange;
             
         }
         .fa-youtube
         {
             font-size: 38px;
+            color: red;
             
         }
         .fa-linkedin
         {
             font-size: 38px;
+            color:blue;
             
         }
         .mail

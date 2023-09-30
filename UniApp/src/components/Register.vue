@@ -1,6 +1,6 @@
 
 <template>
-    <div id ="register">
+    <div id ="register"  class="bg-purple">
 <v-container>
     <v-container>
         <v-layout column>
