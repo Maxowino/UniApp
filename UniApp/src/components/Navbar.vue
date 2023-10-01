@@ -18,9 +18,7 @@
             <div>
                 <v-btn to="/login" color="orange" dark> Log In</v-btn>
             </div>
-            <div>
-                <v-btn to="/signup" color="orange" dark> Sign Up</v-btn>
-            </div>
+            
             <div>
                 <v-btn to="/register" color="orange" > Register</v-btn>
             </div>
