@@ -22,6 +22,9 @@
             <div>
                 <v-btn to="/register" color="orange" > Register</v-btn>
             </div>
+            <div>
+                <v-btn to="/students" color="orange" > Students</v-btn>
+            </div>
 
         </v-app-bar>
     </div>

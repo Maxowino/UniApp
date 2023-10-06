@@ -5,6 +5,7 @@ import about from "./../components/Aboutus.vue"
 import Login from "./../components/Login.vue"
 import Signup from "./../components/Signup.vue"
 import Register from "./../components/Register.vue"
+import Students from "./../components/Students.vue"
 
 
 
@@ -33,6 +34,11 @@ const routes = [
         path: '/register',
         name:'register',
         component:Register,
+    },
+    {
+        path: '/students',
+        name:'students',
+        component:Students,
     },
 ]
 const router= createRouter(
